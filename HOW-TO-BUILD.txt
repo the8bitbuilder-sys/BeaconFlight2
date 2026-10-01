@@ -1,0 +1,16 @@
+BeaconFlight 7.0 - Paper 26.3 plugin (replaces beaconflight_v6.sk)
+
+Needs Java 25 (JDK).
+
+Build with Gradle:   gradle build        -> build/libs/BeaconFlight-7.0.jar
+   or with Maven:    mvn package         -> target/BeaconFlight-7.0.jar
+(Either one works - use whichever you already have. You only need one.)
+
+Install:
+1. Delete beaconflight_v6.sk from plugins/Skript/scripts
+2. Remove the beaconflight datapack from world/datapacks if you added it
+3. Put the jar in plugins/ and restart the server
+4. Run /scanbeacons once to register beacons that already exist
+
+Commands: /reacon (everyone), /scanbeacons and /listbeacons (ops)
+Settings: plugins/BeaconFlight/config.yml
