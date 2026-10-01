@@ -1,0 +1,20 @@
+name: BeaconFlight
+version: '7.0'
+main: com.testeight.beaconflight.BeaconFlight
+api-version: '26.3'
+description: Fly inside active beacon zones (plugin version of beaconflight_v6.sk)
+commands:
+  scanbeacons:
+    description: Register active beacons within 100 blocks of online players
+    permission: beaconflight.admin
+  listbeacons:
+    description: List tracked beacons
+    permission: beaconflight.admin
+  reacon:
+    description: Recalibrate beacon flight if it got turned off
+    permission: beaconflight.reacon
+permissions:
+  beaconflight.admin:
+    default: op
+  beaconflight.reacon:
+    default: true

@@ -1,0 +1,5 @@
+# Beacon Flight settings
+# Radius of the flight zone around each active beacon (circle, any height)
+beacon-radius: 96
+# How often (in ticks, 20 = 1 second) tracked beacons are re-checked
+check-interval-ticks: 20
